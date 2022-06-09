@@ -1,0 +1,113 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #D2CFCF;
+}
+.container-centr
+{
+    height: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.container 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 399px;
+    height: 405px;
+    left: 440px;
+    top: 158px;
+
+    background: #FFFFFF;
+    border-radius: 3px;
+
+    padding-top: 39px;
+    padding-left: 39px;
+    padding-right: 39px;
+    padding-bottom: 50px;
+
+}
+
+input[type=text]
+{
+
+width: 321px;
+height: 39px;
+left: 479px;
+top: 197px;
+
+background: #FFFFFF;
+border: 1px solid #BBBBBB;
+border-radius: 3px;
+}
+.movie
+{
+margin-bottom: 24px;
+}
+
+input[type=date]
+{
+ 
+width: 323px;
+height: 39px;
+left: 477px;
+top: 260px;
+
+background: #FFFFFF;
+
+border: 1px solid #BBBBBB;
+border-radius: 3px;
+}
+
+.year of issue
+{
+    margin-bottom: 24px;
+}
+
+
+::placeholder 
+{
+
+width: 65px;
+height: 19px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #BBBBBB;
+  }
+
+.radio
+{
+    display:flex;
+     flex: 11 auto;
+    
+}
+
+.butt
+{
+border:1px solid blue;
+color: blue;
+text-decoration: none; /*убирает подчеркивание техта внутри кнопки*/
+/*text-transform: uppercase;*/
+width: 321px;
+height: 39px;
+background: #FFFFFF;
+border-radius: 3px;
+display: block;
+text-align: center;
+line-height: 35px;
+position: relative;
+
+}
+ 
